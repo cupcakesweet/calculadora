@@ -14,6 +14,14 @@ function sumar(num1, num2) {
 function dividir(num1,num2){
     return num1/num2
 }
+//funcion factoria de un numero
+function factorial (n) {
+    let total = 1;
+    for (i=1; i<=n; i++) {
+      total = total * i;
+    }
+    return total;
+  }
   // Función principal del programa
   function calculadora() {
     var opcion = prompt(
