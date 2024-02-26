@@ -22,6 +22,12 @@ function factorial (n) {
     }
     return total;
   }
+  //funcion exponente de un numero
+  function exponente (num1,num2){
+     Math.pow(num1,num2);{
+      return Math.pow
+     }
+  }
   // Función principal del programa
   function calculadora() {
     var opcion = prompt(
