@@ -23,13 +23,11 @@ function factorial (n) {
     return total;
   }
   //funcion exponente de un numero
-  function exponente (num1,num2){
-     Math.pow(num1,num2);{
-      return Math.pow
-     }
+  function exponente (num1,exponenteNum){
+     return num1**exponenteNum
   }
   //funcion raiz cuadrada
-  function raizCuadrada (num1,) {
+  function raizCuadrada (num1) {
     Math.sqrt(num1)
     return num1
   }
