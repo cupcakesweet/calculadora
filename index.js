@@ -28,6 +28,11 @@ function factorial (n) {
       return Math.pow
      }
   }
+  //funcion raiz cuadrada
+  function raizCuadrada (num1,) {
+    Math.sqrt(num1)
+    return num1
+  }
   // Función principal del programa
   function calculadora() {
     var opcion = prompt(
